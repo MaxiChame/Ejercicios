@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+
+/* .section-container {
+  width: 50%;
+  height: 60vh;
+  background-color: antiquewhite;
+}
+
+.button-play-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-play-container > button {
+  padding: 0.8rem 2.5rem;
+  margin: 1.5rem;
+  background-color: black;
+  color: antiquewhite;
+  font-size: 2.4rem;
+  border-radius: 10rem;
+}
+
+.button-play-container > button:hover {
+  background-color: gray;
+  border: 0.1rem solid white;
+  outline: none;
+}
+
+.p1y2-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p1y2-container > div {
+  padding: 0.5rem;
+  border: 0.4rem solid red;
+  font-size: 1.8rem;
+}
+
+.img1y2-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img1y2-container > div {
+  width: 20rem;
+  height: 20rem;
+  border: 0.2rem solid red;
+  margin-top: 0.5rem;
+}
+
+.img1y2-container > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+#_0 {
+  display: none;
+}
+
+#_1 {
+  display: none;
+}
+
+#_2 {
+  display: none;
+}
+
+#__0 {
+  display: none;
+}
+
+#__1 {
+  display: none;
+}
+
+#__2 {
+  display: none;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-container > div {
+  margin-top: 1.5rem;
+  border: 0.4rem solid red;
+  border-radius: 5%;
+  max-width: 35rem;
+  height: 5rem;
+  font-size: 2.4rem;
+}
+
+#wins {
+ padding: 1rem;
+}
+
+#score {
+  padding: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+} */
+
+/*                                                                                        TA TE TI  */
+table {
+    border-collapse: collapse;  
+    width: 50%;
+    height: 30%;
+    background-color: antiquewhite;
+}
+
+td {
+    padding: 40px 70px;
+    border: 1px solid #020202;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'one two three'
+    'four five six'
+    'seven eight nine';
+  padding: 10px;
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  place-items: end;
+  top: 50px;
+}
+
+
+.item1 { grid-area: 'one'; }
+.item2 { grid-area: 'two'; }
+.item3 { grid-area: 'three'; }
+.item4 { grid-area: 'four'; }
+.item5 { grid-area: 'five'; }
+.item6 { grid-area: 'six'; }
+.item7 { grid-area: 'seven'; }
+.item8 { grid-area: 'eight'; }
+.item9 { grid-area: 'nine'; }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  
+}
+
+
+
+/*                                                                                    TA TE TI */
